@@ -6,51 +6,51 @@
     margin: 20px;
     
 }
+
 .container>div{
     width: 33%;
     padding: 5px;
 }
+
 .column1{
     margin-top: auto;
     margin-bottom: auto;
     
 }
+
 .column2{
-   border-left: 10px #333 solid;
+    border-left: 10px #333 solid;
     border-right: 10px #333 solid;
 }
-.column3{
 
-    
-}
-.column3{
-    align-items: center;
-    justify-content: space-around;
-}
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
 }
+
 #underline{
     text-decoration: underline;
     text-align: center;
 }
+
 #bold{
     text-align: center;
     border-top: 10px #333 solid;
     border-bottom: 10px #333 solid;
     font-family: 'Franklin Gothic Medium';
 }
+
 #social{
     text-align: center;
     font-size: 24px;
 }
+
 #main{
-  
     font-size: smaller;
 }
+
 #VIT{
   display: block;
   margin-left: auto;
