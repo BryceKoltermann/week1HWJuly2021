@@ -1,6 +1,7 @@
 .container{
     display: flex;
     width: 690px;
+    height: 450px;
     padding: 20px;
     margin: 20px;
     
@@ -10,19 +11,16 @@
     padding: 5px;
 }
 .column1{
-    margin-top: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
     
 }
 .column2{
-    align-items: center;
-    justify-content: space-around;
-    border-left: 10px #333 solid;
+   border-left: 10px #333 solid;
     border-right: 10px #333 solid;
 }
 .column3{
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 40px;
+
     
 }
 .column3{
@@ -30,8 +28,10 @@
     justify-content: space-around;
 }
 img{
-    width: 225px;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 #underline{
     text-decoration: underline;
@@ -52,9 +52,9 @@ img{
     font-size: smaller;
 }
 #VIT{
-    height: 55px;
-    width: 95px;
-    padding-left: 60px;
-    padding-right: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: Auto;
+  width: 50%;
 
 }
